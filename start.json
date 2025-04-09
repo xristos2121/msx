@@ -1,5 +1,150 @@
 {
-    "name": "GitHub Pages Example",
-    "version": "1.0.2",
-    "parameter": "menu:https://benzac-de.github.io/msx/data/menu.json"
+  "name": "Portal",
+    "type": "list",
+   "extension": "{ico:msx-white:event} {now:date:dd.mm.yyyy}{tb}{ico:msx-white:access-time} {now:time:hh:mm}",
+  "background": "http://msx.cc.ua/msx/img/bg.png", 
+  "headline": "Media Station X App Store",
+  "version": "1.0.0",
+  "parameter": "content:http://msx.cc.ua/msx/start.json",
+  "action": "[settings:validate_links:0|home]", 
+  "dictionary": "http://msx.cc.ua/msx/lang/ru.json",
+    "launcher": {
+        "image": "http://msx.cc.ua/msx/img/sparow.png"},
+   "template": {
+        "type": "separate",
+      "layout": "0,0,2,3",
+      "color": "msx-glass"
+   },
+   "items": [
+         {
+		"title":"My Test",
+         "image": "http://atodo.fun/assets/images/icon.png?v=0.1",
+           "action": "link:http://185.82.219.31:81/tv.html"
+      },
+      {
+		"title":"Lampa",
+         "image": "http://msx.cc.ua/msx/img/lampa.jpg",
+          "action": "link:http://lampa.stream"
+      },
+      {
+		  		"title":"Atodo",
+         "image": "http://atodo.fun/assets/images/icon.png?v=0.1",
+          "action": "menu:request:interaction:menu@http://atodo.fun/fun.html"
+      },
+      {
+		"title":"Lampa Land",
+            "image": "http://msx.cc.ua/msx/img/lampa.jpg",
+            "action": "link:http://lampa.land"
+      },
+      {
+		  		"title":"Ott-play",
+         "image": "http://msx.cc.ua/msx/img/ottplay.jpg",
+         "action": "link:http://ott-play.com/f/"
+      },
+      {
+		"title":"Ott-play FOSS",
+         "image": "http://msx.cc.ua/msx/img/ott_foss.png",
+         "action": "link:http://ott.prog4food.eu.org/f/"
+      },
+      {
+		"title":"DRM-Play",
+         "image": "http://msx.cc.ua/msx/img/drm_play.png",
+         "action":"execute:info:extended:http://drm-play.com/msx/data.php"
+      },
+      {
+		"title":"OTTplayer",
+         "image": "http://msx.cc.ua/msx/img/ottplayer.png",
+         "action": "link:http://widget.ottplayer.tv/"
+      },
+      {
+		"title":"MINER USDT",
+         "image": "http://msx.cc.ua/msx/img/wemine.jpg",
+          "action": "link:https://t.me/WeMineBot/mine?startapp=ref_16TJKV29IT"
+      },
+      {
+		"title":"PRISMA",
+         "image": "http://msx.cc.ua/msx/img/prisma.png",
+         "action": "link:https://prisma.ws/"
+      },
+	  {
+		"title":"AKTER BLACK",
+            "image": "http://msx.cc.ua/msx/img/akterb.png",
+            "action": "link:http://abmsx.tech"
+      },
+	  {
+		"title":"Dream Station",
+            "image": "http://msx.cc.ua/msx/img/dream.jpg",
+            "action": "link:https://t.me/BitcoinWelfare_bot/app?startapp=tg_530294841"
+      },
+	  {
+		"title":"Lampa Лайт NoNaMe",
+         "image": "http://msx.nnmtv.pw/msx/img/lampa_lite.jpg",
+          "action": "link:http://lite.nnmtv.pw/"
+      },
+      {
+		"title":"FREE TV",
+         "image": "http://msx.cc.ua/msx/img/tvnew.png",
+          "action": "menu:http://msx.cc.ua/msx/tv.json"
+      },
+      {
+		"title":"MooVies",
+         "image": "http://msx.cc.ua/msx/img/imovies.png",
+         "action": "menu:request:interaction:init@http://moovies.uz/index.html"
+      },
+      {
+		"title":"ForkPlayer",
+         "image": "http://msx.cc.ua/msx/img/forknew.png",
+         "action": "link:http://browser.appfxml.com/"
+      },
+	  {
+		"title":"DEEPLEX",
+         "image": "http://msx.cc.ua/msx/img/deep.png",
+          "action": "link:http://smart.deeplex.cc"
+      },
+      {
+		"title":"VoKino",
+            "image": "http://msx.cc.ua/msx/img/vokino.jpg",
+            "action": "link:http://web.vokino.tv/"
+      },
+      {
+		"title":"YouTUBE",
+         "image": "http://msx.cc.ua/msx/img/youtube.png",
+          "action": "link:https://www.youtube.com/tv#/"
+      },
+	   {
+		"title":"Кинопаб",
+         "image": "http://msx.cc.ua/msx/img/kp.png",
+         "action": "link:http://cdnservices.link/bootstrap.html"
+      },
+      {
+		"title":"TikTok",
+         "image": "http://msx.cc.ua/msx/img/tiktok.png",
+          "action": "link:https://tv.tiktok.com/webos"
+      },
+      {
+		"title":"SS-IPTV",
+         "image": "http://msx.cc.ua/msx/img/ssiptv.jpg",
+          "action": "link:http://app.ss-iptv.com/"
+      },
+	    {
+		"title":"GetsTV",
+         "image": "http://msx.cc.ua/msx/img/getstv_logo.jpg",
+         "action": "link:http://getstv.com/app/"
+      },
+      {
+		"title":"WEB BROWSER",
+         "image": "http://msx.cc.ua/msx/img/fork_com.png",
+         "action": "link:http://browser.appfxml.com/"
+      },
+	  {
+		"title":"КВІТИ",
+            "image": "http://msx.cc.ua/msx/img/flow.png",
+            "action": "link:https://weflowers.com.ua/"
+      },
+	  {
+		"title":"ICVA",
+            "image": "http://msx.cc.ua/msx/img/icva.png",
+            "action": "link:http://icva.mx/"
+      }
+   ]
 }
