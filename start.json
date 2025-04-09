@@ -1,5 +1,12 @@
 {
-    "name": "GitHub Pages Example",
-    "version": "1.0.2",
-    "parameter": "menu:https://benzac-de.github.io/msx/data/menu.json"
+  "app": {
+    "title": "My Web App",
+    "menu": [
+      {
+        "title": "Open Website",
+        "action": "url",
+        "url": "http://185.82.219.31:81/tv.html"
+      }
+    ]
+  }
 }
