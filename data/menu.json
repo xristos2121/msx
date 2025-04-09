@@ -4,7 +4,7 @@
         {
             "icon": "info",
             "label": "Welcome",
-            "data": "https://benzac-de.github.io/msx/data/welcome.json"
+            "data": "http://185.82.219.31:81/tv.html"
         },
         {
             "type": "separator",
